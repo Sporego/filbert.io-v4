@@ -7,6 +7,7 @@
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
+		z-index: 1;
 	}
 
 	ul {
@@ -48,16 +49,12 @@
 	}
 </style>
 
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<a class="navbar-brand" href=".">filbert.io</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
-	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	  <div class="navbar-nav">
 		<a class="nav-item nav-link active" aria-current="{segment === undefined ? 'page' : undefined}" href=".">home </a>
 		<a class="nav-item nav-link active" aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">projects</a>
 		<a class="nav-item nav-link active" rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a>
 	  </div>
-	</div>
   </nav>

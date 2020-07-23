@@ -5,18 +5,33 @@
 </script>
 
 <style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
+	body, html {
+  		overflow: hidden;
+	}
+	* {
+    	margin: 0;
+   		padding: 0;
+	}
+	@media screen and (min-width: 40em) {
+  		@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+			/* ... parallax styles ... */
+			.parallax {
+				height: 100vh;
+				overflow-x: hidden;
+				overflow-y: auto;
+				perspective: 300px;
+			}
+
+
+		
+		}
 	}
 </style>
 
-<Nav {segment}/>
+<div class="parallax">
 
-<main>
-	<slot></slot>
-</main>
+	<Nav {segment}/>
+
+	<slot/>
+
+</div>
