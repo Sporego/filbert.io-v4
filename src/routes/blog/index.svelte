@@ -18,7 +18,7 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>filbert.io - blog</title>
 </svelte:head>
 
 <div class="container">

@@ -30,10 +30,10 @@
 			}
 
 			.bg1{
-				background-image: url(ascent.jpg);
+				background-image: url(images/dhmtrl.jpg);
 			}
 			.bg2{
-				background-image: url(space.jpg);
+				background-image: url(ascent.jpg);
 			}
 			#one{
 				z-index: -1;
@@ -47,12 +47,12 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>filbert.io</title>
 </svelte:head>
 
 <div class="parallax__group" id="one">
 	<div class="container parallax__layer parallax__layer--base">
-		<div class="row">
+		<div class="row fixed-bottom">
 			<div class="col-md jumbotron bg-transparent">
 				<h2 class="display-4">filbert.io <span class="badge badge-secondary">New</span></h2>
 				<p class="lead">Personal Portfolio Website</p>
@@ -69,7 +69,7 @@
 </div>
 <div class="parallax__group" id="two">
 	<div class="container parallax__layer parallax__layer--base">
-		<div class="row">
+		<div class="row sticky-top">
 			<div class="col-md jumbotron bg-transparent">
 				<h2 class="display-4">filbert.io <span class="badge badge-secondary">New</span></h2>
 				<p class="lead">Personal Portfolio Website</p>

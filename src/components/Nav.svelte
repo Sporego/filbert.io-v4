@@ -33,7 +33,7 @@
 </style>
 
 
-<nav class="navbar navbar-expand navbar-dark bg-dark">
+<nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
 	<a class="navbar-brand" href=".">filbert.io</a>
 	  <div class="navbar-nav">
 		<a class="nav-item nav-link active" aria-current="{segment === undefined ? 'page' : undefined}" href=".">home </a>
