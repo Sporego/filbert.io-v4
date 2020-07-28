@@ -6,25 +6,8 @@
 	nav {
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
-		padding: 0 1em;
+		padding: 0 1.5em;
 		z-index: 1;
-	}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	li {
-		display: block;
-		float: left;
 	}
 
 	[aria-current] {
@@ -50,7 +33,7 @@
 </style>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand navbar-dark bg-dark">
 	<a class="navbar-brand" href=".">filbert.io</a>
 	  <div class="navbar-nav">
 		<a class="nav-item nav-link active" aria-current="{segment === undefined ? 'page' : undefined}" href=".">home </a>
