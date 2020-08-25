@@ -53,7 +53,7 @@
 <div class="parallax__group" id="one">
 	<div class="container parallax__layer parallax__layer--base">
 		<div class="row fixed-bottom">
-			<div class="col-md jumbotron bg-transparent">
+			<div class="col-md jumbotron bg-dark">
 				<h2 class="display-4">filbert.io <span class="badge badge-secondary">New</span></h2>
 				<p class="lead">Personal Portfolio Website</p>
 				<hr class="my-4">
@@ -70,7 +70,7 @@
 <div class="parallax__group" id="two">
 	<div class="container parallax__layer parallax__layer--base">
 		<div class="row sticky-top">
-			<div class="col-md jumbotron bg-transparent">
+			<div class="col-md jumbotron bg-dark">
 				<h2 class="display-4">filbert.io <span class="badge badge-secondary">New</span></h2>
 				<p class="lead">Personal Portfolio Website</p>
 				<hr class="my-4">
